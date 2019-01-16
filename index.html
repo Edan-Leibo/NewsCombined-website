@@ -4,6 +4,12 @@
 <head>
   <meta charset="utf-8">
   <title>NewsCombined</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu" rel="stylesheet">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- css styles -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -11,45 +17,47 @@
 <body>
 
   <section id="title">
+    <div class="container-fluid">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-       <a class="navbar-brand" href="">NewsCombined</a>
+        <a class="navbar-brand" href="">NewsCombined</a>
 
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
+          <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarToggler">
 
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Download</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Download</a>
+            </li>
+          </ul>
 
         </div>
-    </nav>
+      </nav>
 
 
 
-    <!-- TODO:  Title -->
-
-    <div>
-      <h1>Get all the news in just one place.</h1>
-      <button type="button">Download iPhone app</button>
-      <button type="button">Download Android app</button>
+      <!-- TODO:  Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Get all the news in just one place.</h1>
+          <button type="button" class="btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/app screen.png" alt="iphone-mockup">
+        </div>
+      </div>
     </div>
-    <div>
-      <img src="images/app screen.png" alt="iphone-mockup">
-    </div>
-
   </section>
 
 
