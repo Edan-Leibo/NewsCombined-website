@@ -16,7 +16,7 @@
 
 <body>
 
-  <section id="title">
+  <section class="colored-section" id="title">
     <div class="container-fluid">
 
       <nav class="navbar navbar-expand-lg navbar-dark">
@@ -31,13 +31,13 @@
 
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Download</a>
+              <a class="nav-link" href="#cta">Download</a>
             </li>
           </ul>
 
@@ -49,7 +49,7 @@
       <!-- TODO:  Title -->
       <div class="row">
         <div class="col-lg-6">
-          <h1>Get all the news in just one place.</h1>
+          <h1 class="big-heading">Get all the news in just one place.</h1>
           <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
@@ -63,28 +63,32 @@
 
   <!-- Features -->
 
-  <section id="features">
-    <div class="row">
-      <div class="feature-box col-lg-3 col-md-6 ">
-        <i class="icon fas fa-check-circle fa-4x"></i>
-        <h3>Easy to use</h3>
-        <p>So easy to use,<br>anyone can do it</p>
-      </div>
+  <section class="white-section" id="features">
+    <div class="container-fluid">
 
-      <div class="feature-box col-lg-3 col-md-6">
-        <i class="icon far fa-newspaper fa-4x"></i>
-        <h3>All news sources</h3>
-        <p>We have a variety of different news sites as resources</p>
-      </div>
-      <div class="feature-box col-lg-3 col-md-6">
-        <i class="icon fas fa-globe-americas fa-4x"></i>
-        <h3>360 inspection of the reality</h3>
-        <p>Read the news as they as they gathered up by their topic</p>
-      </div>
-      <div class="feature-box col-lg-3 col-md-6">
-        <i class="icon fas fa-comments fa-4x"></i>
-        <h3>Chat with others</h3>
-        <p>Let others know what you think about the different topics</p>
+
+      <div class="row">
+        <div class="feature-box col-lg-3 col-md-6 ">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="faeture-title">Easy to use</h3>
+          <p>So easy to use,<br>anyone can do it</p>
+        </div>
+
+        <div class="feature-box col-lg-3 col-md-6">
+          <i class="icon far fa-newspaper fa-4x"></i>
+          <h3 class="faeture-title">All news sources</h3>
+          <p>We have a variety of different news sites as resources</p>
+        </div>
+        <div class="feature-box col-lg-3 col-md-6">
+          <i class="icon fas fa-globe-americas fa-4x"></i>
+          <h3 class="faeture-title">360 inspection of the reality</h3>
+          <p>Read the news as they as they gathered up by their topic</p>
+        </div>
+        <div class="feature-box col-lg-3 col-md-6">
+          <i class="icon fas fa-comments fa-4x"></i>
+          <h3 class="faeture-title">Chat with others</h3>
+          <p>Let others know what you think about the different topics</p>
+        </div>
       </div>
     </div>
   </section>
@@ -92,7 +96,7 @@
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section class="colored-section" id="testimonials">
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item active container-fluid">
@@ -121,7 +125,7 @@
 
   <!-- Press -->
 
-  <section id="press">
+  <section class="colored-section" id="press">
     <img class="source-logo" src="images/Business Report.jpg" alt="Business Report-logo">
     <img class="source-logo" src="images/The Huffington Post.jpg" alt="The Huffington Post-logo">
     <img class="source-logo" src="images/The Wall Street Journal.jpg" alt="The Wall Street Journal-logo">
@@ -160,7 +164,7 @@
             <h3>Mid Reader</h3>
           </div>
           <div class="card-body">
-            <h2 class="price-text">$49 / mo</h2>
+            <h2 class="price-text">$9 / mo</h2>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
@@ -175,7 +179,7 @@
             <h3>Top Reader</h3>
           </div>
           <div class="card-body">
-            <h2 class="price-text">$99 / mo</h2>
+            <h2 class="price-text">$19 / mo</h2>
             <p>Pirority Listing</p>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
@@ -195,22 +199,27 @@
 
   <!-- Call to Action -->
 
-  <section id="cta">
-
-    <h3>Read the latest breaking news, Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="big-heading">Read the latest breaking news, Today.</h3>
+      <button type="button" class="download-button btn btn-lg btn-dark"><i class="fab fa-apple"></i>Download</button>
+      <button type="button" class="download-button btn btn-lg btn-light"><i class="fab fa-google-play"></i>Download</button>
+    </div>
   </section>
 
 
   <!-- Footer -->
 
-  <footer id="footer">
-
-    <p>&copy Copyright 2018 Edan Leibovitz</p>
-
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>&copy Copyright 2018 Edan Leibovitz</p>
+    </div>
   </footer>
+
 
 
   <!-- for bootstrap usage-->

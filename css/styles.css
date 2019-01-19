@@ -3,32 +3,45 @@ body {
   text-align: center;
 }
 
-
-h1 {
-  font-family: "Montserrat";
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: "Montserrat";
+h1, h2, h3, h4, h5, h6{
   font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size: 1.5rem;
 }
 
 p {
   color: #494949;
 }
 
+/* Headings */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #1f3c88;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
 /* Navigation Bar*/
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -55,15 +68,12 @@ p {
 
 /* Title Section */
 
-#title {
-  background-color: #1f3c88;
-  color: #fff;
+#title .container-fluid {
+  padding: 3% 15% 7%;
   text-align: left;
+
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
-}
 
 /* Title image */
 .title-image {
@@ -74,15 +84,21 @@ p {
   right: 30%;
 }
 
+
+
+
 /* Features Section*/
 #features {
-  padding: 7% 10% ;
   background-color: #fff;
   position: relative;
 }
 
+.faeture-title {
+  font-size: 1.5rem;
+}
+
 .feature-box {
-  text-align: center;
+  padding: 4.5%;
 }
 
 .icon {
@@ -96,9 +112,12 @@ p {
 
 /* Testimonials */
 #testimonials {
-  text-align: center;
   background-color: #5893d4;
-  color: #fff;
+}
+
+testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -107,14 +126,10 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 10%;
-}
 
 /* press */
 #press {
   background: #5893d4;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -124,10 +139,8 @@ p {
 }
 
 /* Pricing Section */
-
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .price-text {
@@ -139,8 +152,16 @@ p {
   padding: 3% 2%;
 }
 
-@media (max-width: 1028px) {
+/* CTA Section */
 
+/* Footer */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
   #title {
     text-align: center;
   }
