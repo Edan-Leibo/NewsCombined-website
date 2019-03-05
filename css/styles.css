@@ -18,7 +18,7 @@ p {
 }
 
 .section-heading{
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.5;
 }
 
@@ -173,8 +173,26 @@ testimonial-text {
   }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 1024px) {
+	.navbar {
+		padding: 0 0 1.5rem;
+	}
+}
+
+@media (max-width: 550px) {
+    html{
+        font-size: 12px;
+    }
+    
 	#press {
 		display: none;
 	}
+    
+    #pricing {
+        padding: 50px;
+    }
+    
+    .big-heading{
+        font-size: 2.8rem;
+    }
 }
