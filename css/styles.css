@@ -184,6 +184,10 @@ testimonial-text {
         font-size: 12px;
     }
     
+    .navbar-brand{
+        font-size: 2rem;    
+    }
+    
 	#press {
 		display: none;
 	}
