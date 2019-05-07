@@ -162,6 +162,22 @@ testimonial-text {
   margin: 20px 10px;
 }
 
+/* scroll up button */
+
+.scroll-up {
+  display: none;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px; 
+}
+
+.scroll-up i{
+  color: white;
+  padding: 0.7rem;
+}
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
